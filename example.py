@@ -1,10 +1,10 @@
 from googlesearch import search
 
 # query string to search on Google
-query = "As you are by Harry Styles"
+query = "framework laptop"
 
 # number of top search results to fetch
-numResults = 3
+numResults = 10
 
 google_search_results = list(search(query, stop=numResults, pause=1))
 
